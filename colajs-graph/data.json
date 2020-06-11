@@ -1,0 +1,149 @@
+[{
+  "data": {
+    "id": "605755",
+    "idInt": 605755,
+    "name": "PCNA",
+    "score": 0.006769776522008331,
+    "query": true,
+    "gene": true
+  },
+  "position": {
+    "x": 481.0169597039117,
+    "y": 384.8210888234145
+  },
+  "group": "nodes",
+  "removed": false,
+  "selected": false,
+  "selectable": true,
+  "locked": false,
+  "grabbed": false,
+  "grabbable": true,
+  "classes": "fn10273 fn6944 fn9471 fn10569 fn8023 fn6956 fn6935 fn8147 fn6939 fn6936 fn6629 fn7928 fn6947 fn8612 fn6957 fn8786 fn6246 fn9367 fn6945 fn6946 fn10024 fn10022 fn6811 fn9361 fn6279 fn6278 fn8569 fn7641 fn8568 fn6943"
+}, {
+  "data": {
+    "id": "611408",
+    "idInt": 611408,
+    "name": "FEN1",
+    "score": 0.006769776522008331,
+    "query": false,
+    "gene": true
+  },
+  "position": {
+    "x": 531.9740635094307,
+    "y": 464.8210898234145
+  },
+  "group": "nodes",
+  "removed": false,
+  "selected": false,
+  "selectable": true,
+  "locked": false,
+  "grabbed": false,
+  "grabbable": true,
+  "classes": "fn10273 fn6944 fn9471 fn6284 fn6956 fn6935 fn8147 fn6939 fn6936 fn6949 fn6629 fn7952 fn6680 fn6957 fn8786 fn6676 fn10713 fn7495 fn7500 fn9361 fn6279 fn6278 fn8569 fn7641 fn8568"
+}, {
+  "data": {
+    "id": "612341",
+    "idInt": 612341,
+    "name": "RAD9A",
+    "score": 0.0028974131563619387,
+    "query": false,
+    "gene": true
+  },
+  "position": {
+    "x": 455.8128125018193,
+    "y": 555.4591537139819
+  },
+  "group": "nodes",
+  "removed": false,
+  "selected": false,
+  "selectable": true,
+  "locked": false,
+  "grabbed": false,
+  "grabbable": true,
+  "classes": "fn6935 fn6219 fn6680 fn6676 fn10713 fn7552 fn7495"
+}, {
+  "data": {
+    "id": "608473",
+    "idInt": 608473,
+    "name": "RAD9B",
+    "score": 0.0026928704785200708,
+    "query": false,
+    "gene": true
+  },
+  "position": {
+    "x": 363.1144068403203,
+    "y": 515.7352912086707
+  },
+  "group": "nodes",
+  "removed": false,
+  "selected": false,
+  "selectable": true,
+  "locked": false,
+  "grabbed": false,
+  "grabbable": true,
+  "classes": "fn6935"
+}, {
+  "data": {
+    "id": "611560",
+    "idInt": 611560,
+    "name": "APEX2",
+    "score": 0.0026215687185565106,
+    "query": false,
+    "gene": true
+  },
+  "position": {
+    "x": 689.1927803956215,
+    "y": 634.0100611862405
+  },
+  "group": "nodes",
+  "removed": false,
+  "selected": false,
+  "selectable": true,
+  "locked": false,
+  "grabbed": false,
+  "grabbable": true,
+  "classes": ""
+}, {
+  "data": {
+    "id": "600585",
+    "idInt": 600585,
+    "name": "POLD3",
+    "score": 0.0024938385347587078,
+    "query": false,
+    "gene": true
+  },
+  "position": {
+    "x": 118.3562364528364,
+    "y": 384.3877516879044
+  },
+  "group": "nodes",
+  "removed": false,
+  "selected": false,
+  "selectable": true,
+  "locked": false,
+  "grabbed": false,
+  "grabbable": true,
+  "classes": "fn10273 fn6944 fn9471 fn10569 fn8823 fn9180 fn6956 fn6935 fn8147 fn6939 fn6936 fn6648 fn6947 fn6957 fn8786 fn6246 fn9367 fn9368 fn6945 fn6946 fn7921 fn6811 fn8380 fn6279 fn6278 fn8569 fn7641 fn8568 fn6943"
+}, {
+  "data": {
+    "id": "599889",
+    "idInt": 599889,
+    "name": "RAD51",
+    "score": 0.002453016748286352,
+    "query": false,
+    "gene": true
+  },
+  "position": {
+    "x": 759.7017646483837,
+    "y": 338.3207127700095
+  },
+  "group": "nodes",
+  "removed": false,
+  "selected": false,
+  "selectable": true,
+  "locked": false,
+  "grabbed": false,
+  "grabbable": true,
+  "classes": "fn6931 fn9632 fn7950 fn9188 fn6956 fn6935 fn7338 fn6936 fn6949 fn6629 fn6957 fn6246 fn7453 fn7451 fn10024 fn7456 fn7454 fn7469 fn7467 fn10022 fn7552 fn7495 fn7463 fn7464 fn9361"
+}
+]
