@@ -5,7 +5,7 @@ Promise.all([
     .then(function(res) {
       return res.json();
     }),
-  fetch('https://api.jsonbin.io/b/5ee06d682f5fd957fda74a13/2') //data.json
+  fetch('https://api.jsonbin.io/b/5ee324e01f9e4e57881c266c') //data.json
     .then(function(res) {
       return res.json();
     })
