@@ -5,7 +5,7 @@ Promise.all([
     .then(function(res) {
       return res.json();
     }),
-  fetch('https://api.jsonbin.io/b/5ee324e01f9e4e57881c266c') //data.json
+  fetch('https://api.jsonbin.io/b/5ee324e01f9e4e57881c266c/7') //data.json
     .then(function(res) {
       return res.json();
     })
@@ -44,8 +44,8 @@ Promise.all([
 
     var params = {
       name: 'cola',
-      nodeSpacing: 25,
-      edgeLengthVal: 45,
+      nodeSpacing: 5,
+      edgeLengthVal: 3,
       animate: true,
       randomize: false,
       maxSimulationTime: 1500
@@ -78,27 +78,6 @@ Promise.all([
       }
     ];
 
-    var buttons = [
-      // {
-      //   label: h('span', { 'class': 'fa fa-random' }, []),
-      //   layoutOpts: {
-      //     randomize: true,
-      //     flow: null
-      //   }
-      // },
-
-      // {
-      //   label: h('span', { 'class': 'fa fa-long-arrow-down' }, []),
-      //   layoutOpts: {
-      //     flow: { axis: 'y', minSeparation: 30 }
-      //   }
-      // }
-    ];
-
-    // sliders.forEach( makeSlider );
-
-    //buttons.forEach( makeButton );
-
     function makeLayout( opts ){
       params.randomize = false;
       params.edgeLength = function(e){ return params.edgeLengthVal / e.data('weight'); };
@@ -109,54 +88,6 @@ Promise.all([
 
       return cy.layout( params );
     }
-
-    // function makeSlider( opts ){
-    //   var $input = h('input', {
-    //     id: 'slider-'+opts.param,
-    //     type: 'range',
-    //     min: opts.min,
-    //     max: opts.max,
-    //     step: 1,
-    //     value: params[ opts.param ],
-    //     'class': 'slider'
-    //   }, []);
-
-    //   var $param = h('div', { 'class': 'param' }, []);
-
-    //   var $label = h('label', { 'class': 'label label-default', for: 'slider-'+opts.param }, [ t(opts.label) ]);
-
-    //   $param.appendChild( $label );
-    //   $param.appendChild( $input );
-
-    //   $config.appendChild( $param );
-
-    //   var update = _.throttle(function(){
-    //     params[ opts.param ] = $input.value;
-
-    //     layout.stop();
-    //     layout = makeLayout();
-    //     layout.run();
-    //   }, 1000/30);
-
-    //   $input.addEventListener('input', update);
-    //   $input.addEventListener('change', update);
-    // }
-
-    // function makeButton( opts ){
-    //   var $button = h('button', { 'class': 'btn btn-default' }, [ opts.label ]);
-
-    //   $btnParam.appendChild( $button );
-
-    //   $button.addEventListener('click', function(){
-    //     layout.stop();
-
-    //     if( opts.fn ){ opts.fn(); }
-
-    //     layout = makeLayout( opts.layoutOpts );
-    //     layout.run();
-    //   });
-    // }
-
     var makeTippy = function(node, html){
       return tippy( node.popperRef(), {
         html: html,
@@ -196,20 +127,13 @@ Promise.all([
 
     cy.nodes().forEach(function(n){
       var g = n.data('name');
+      console.log(g);
 
       var $links = [
         {
-          name: 'node',
-          url: 'http://www.genecards.org/cgi-bin/carddisp.pl?gene=' + g
-        },
-        // {
-        //   name: 'UniProt search',
-        //   url: 'http://www.uniprot.org/uniprot/?query='+ g +'&fil=organism%3A%22Homo+sapiens+%28Human%29+%5B9606%5D%22&sort=score'
-        // },
-        // {
-        //   name: 'GeneMANIA',
-        //   url: 'http://genemania.org/search/human/' + g
-        // }
+          name: g,
+          url: 'http://www.google.com'
+        }
       ].map(function( link ){
         return h('a', { target: '_blank', href: link.url, 'class': 'tip-link' }, [ t(link.name) ]);
       });
